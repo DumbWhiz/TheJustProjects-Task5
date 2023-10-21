@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Body*/
+body{
+    background:linear-gradient(173deg, rgba(84, 35, 215, 0.24) -20.49%, rgba(31, 61, 167, 0.00) 93.7%);
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    stroke-width: 1px;
+    stroke: #000000;
+}
+
+/* Container */
+.container{
+    display:flex;
+    align-items:center;
+    gap:31px;
+    justify-content: center;
+}
+
+/* LHS Woman Image */
+.container .image{
+    width:60%;
+}
+
+.image img{
+    height: 100vh;
+    width:100%;
+}
+
+/* RHS - Container */
+.container .rhs{
+    display:inline-flex;
+    align-items: flex;
+    flex-direction:column;
+    margin-right: 62px;
+    width:40%;
+}
+
+/* Create an Account */
+.body .rhs .head{
+    color: #222;
+    font-size: 54px;
+    font-weight: 700;     
+    line-height: normal;
+    margin-bottom: 56px;
+    text-transform: capitalize;
+    width:100%;
+}
+
+/* Google Container */
+.body .rhs .google{
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    border-radius: 15px;
+    display:flex;
+    align-items:center;
+    gap:40px;
+    padding:10px 24px;
+    width:100%;
+}
+
+/* Google Icon */
+.body .rhs .google img{
+    width:10%;
+}
+
+/* Google Text */
+.body .rhs .google p{
+    color: #222222;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}
+
+/* OR */
+.body .rhs #or{
+    color: #222;
+    font-family: 'Inter';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 40px 0px 50px 0;
+    
+}
+
+/* Form */
+.body .rhs .form{
+    display:flex;
+    flex-direction:column;
+}
+
+/* Input */
+.body .rhs .form input{
+    color: #222222;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.body .rhs .form .inp{
+    background:rgba(245, 245, 251, 0);
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    margin-bottom: 20px;
+    padding:24px;
+}
+
+/* Button Text*/
+.body .rhs .form a{
+    color: #ffffff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+/* Button Backgroubnd */
+.body .rhs .form .button{
+    background-color:#4c14e2;
+    border-radius: 15px;
+    margin-top:56px;
+    padding:24px;
+}
